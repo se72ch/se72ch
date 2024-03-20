@@ -16,12 +16,10 @@ echo -e "\e[1;34mInstalling curl...\e[0m"
 sudo apt install curl -y
 echo -e "\e[1;32mcurl installed successfully.\e[0m"
 
-# تثبيت jq
 echo -e "\e[1;34mInstalling jq...\e[0m"
 sudo apt-get install jq -y
 echo -e "\e[1;32mjq installed successfully.\e[0m"
 
-# تثبيت httprobe
 echo -e "\e[1;34mInstalling httprobe...\e[0m"
 sudo apt install httprobe -y
 echo -e "\e[1;32mhttprobe installed successfully.\e[0m"
