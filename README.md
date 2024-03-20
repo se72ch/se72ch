@@ -59,7 +59,7 @@ INSTALLATION:
 
 NOTES:
 
-1. enjoy a cup of coffee until the tulle finishes working, it will take a little time.
+1. enjoy a cup of coffee until the tool finishes working, it will take a little time.
 2. your output  will save on the user's Desktop.
 3. The tool will work on Kali without problems. Wait for the new version to work on other operating systems.
    
