@@ -38,20 +38,28 @@ SYNTAX:
 
 INSTALLATION:
 
-       git clone https://github.com/Search829/se72ch.git
+      ┌──(ali㉿ali)-[~]
+      └─$  git clone https://github.com/Search829/se72ch.git
        
-       cd se72ch 
+      ┌──(ali㉿ali)-[~]
+      └─$ cd se72ch 
        
-       chmod +x requirements.sh
+      ┌──(ali㉿ali)-[~]
+      └─$ chmod +x requirements.sh
        
-       sudo ./requirements.sh
+      ┌──(ali㉿ali)-[~]
+      └─$sudo ./requirements.sh
        
-       chmod +x se72ch.sh
+      ┌──(ali㉿ali)-[~]
+      └─$chmod +x se72ch.sh
        
-       ./se72ch -h 
+      ┌──(ali㉿ali)-[~]
+      └─$./se72ch -h 
+
 
 NOTES:
 
 1. enjoy a cup of coffee until the tulle finishes working, it will take a little time.
 2. your output  will save on the user's Desktop.
+3. The tool will work on Kali without problems. Wait for the new version to work on other operating systems.
    
