@@ -1,4 +1,4 @@
-INTRODUCTION
+INTRODUCTION:
 
 se72ch noob is a tool for automating reconnaissance tasks. It gathers information about a target domain, including subdomains and URLs, using OSINT tools like theHarvester, dirsearch, and httprobe. It verifies URL status codes and performs fuzzing to uncover hidden pages, enhancing security assessments and penetration testing engagements.
                         
@@ -25,7 +25,7 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 
 
                                                                                                                                                                               
-SYNTAX
+SYNTAX:
 
 
       Usage:./se72ch.sh [--live] [--fuzz]                                                                                                    
@@ -36,7 +36,7 @@ SYNTAX
 
 
 
-INSTALLATION
+INSTALLATION:
 
        git clone https://github.com/Search829/se72ch.git
        
@@ -49,3 +49,9 @@ INSTALLATION
        chmod +x se72ch.sh
        
        ./se72ch -h 
+
+NOTES:
+
+1. enjoy a cup of coffee until the tulle finishes working, it will take a little time.
+2. your output  will save on the user's Desktop.
+   
