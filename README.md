@@ -1,3 +1,5 @@
+INTRODUCTION
+
 se72ch noob is a tool for automating reconnaissance tasks. It gathers information about a target domain, including subdomains and URLs, using OSINT tools like theHarvester, dirsearch, and httprobe. It verifies URL status codes and performs fuzzing to uncover hidden pages, enhancing security assessments and penetration testing engagements.
                         
                         
@@ -20,9 +22,30 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
      // \\ // \\                                                                                                                        
     ||_  \\|_  \\_ 
 
-                                                                                                                                                                                                                                                                            
-Usage: ./se72ch.sh [--live] [--fuzz]                                                                                                    
+
+
+                                                                                                                                                                              
+SYNTAX
+
+
+      Usage:./se72ch.sh [--live] [--fuzz]                                                                                                    
                                                                                                                                         
---live: to check the status codes of discovered URLs.                                                                                   
+      --live: to check the status codes of discovered URLs.                                                                                   
                                                                                                                                         
---fuzz: to perform fuzzing on discovered URLs.                                                                       
+      --fuzz: to perform fuzzing on discovered URLs.
+
+
+
+INSTALLATION
+
+       git clone https://github.com/Search829/se72ch.git
+       
+       cd se72ch 
+       
+       chmod +x requirements.sh
+       
+       sudo ./requirements.sh
+       
+       chmod +x se72ch.sh
+       
+       ./se72ch -h 
