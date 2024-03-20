@@ -1,21 +1,17 @@
 #!/bin/bash
 
-# تثبيت theHarvester
 echo -e "\e[1;34mInstalling theHarvester...\e[0m"
 sudo apt-get install theHarvester -y
 echo -e "\e[1;32mtheHarvester installed successfully.\e[0m"
 
-# تثبيت figlet
 echo -e "\e[1;34mInstalling figlet...\e[0m"
 sudo apt-get install figlet -y
 echo -e "\e[1;32mfiglet installed successfully.\e[0m"
 
-# تثبيت dirsearch
 echo -e "\e[1;34mInstalling dirsearch...\e[0m"
 sudo apt-get install dirsearch -y
 echo -e "\e[1;32mdirsearch installed successfully.\e[0m"
 
-# تثبيت curl
 echo -e "\e[1;34mInstalling curl...\e[0m"
 sudo apt install curl -y
 echo -e "\e[1;32mcurl installed successfully.\e[0m"
