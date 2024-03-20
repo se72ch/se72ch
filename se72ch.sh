@@ -1,7 +1,5 @@
 #!/bin/bash
 
-YELLOW='\033[1;33m'
-NC='\033[0m'
 
 echo -e "\e[1;36m"
 banner() {
@@ -62,7 +60,7 @@ done
 
 
 if [[ "$@" == *"--fuzz"* ]]; then
-    # التحقق مما إذا كانت --live موجودة أيضًا
+
     if [[ "$@" != *"--live"* ]]; then
         echo -e "\e[31mError: --fuzz cannot be used without --live.\e[0m"
         exit 1
@@ -162,8 +160,8 @@ echo -e "\033[0;35mwe save the URLs at: $HOME/Desktop/${TARGET}/https.txt\033[0m
 
 
 if [[ "$1" == "--live" ]]; then
-    # تشغيل البحث عن النطاقات الحية
-    # يمكنك استبدال الكود التالي بكود بحث النطاقات الحية الخاص بك
+
+
 
     cd $HOME/Desktop/${TARGET}
     echo "-----------------------------------------"
@@ -201,8 +199,8 @@ if [[ "$1" == "--live" ]]; then
     echo -e "\033[0;35m\n\nwe save the live subdomin at: $HOME/Desktop/${TARGET}/live.txt\033[0m"
 
     if [[ "$2" == "--fuzz" ]]; then
-        # تشغيل الفحص بعد البحث عن النطاقات الحية
-        # يمكنك استبدال الكود التالي بكود الفحص الخاص بك
+
+
         
         echo "-----------------------------------------"
         echo -e "\033[0;32mYou can see the hiden pages by \033[0m"
@@ -225,8 +223,8 @@ if [[ "$1" == "--live" ]]; then
     fi
 
 elif [[ "$1" == "--fuzz" ]]; then
-    # تشغيل البحث عن النطاقات الحية
-    # يمكنك استبدال الكود التالي بكود بحث النطاقات الحية الخاص بك
+
+
     
     cd $HOME/Desktop/${TARGET}
     echo "-----------------------------------------"
@@ -264,8 +262,8 @@ elif [[ "$1" == "--fuzz" ]]; then
     echo -e "\033[0;35m\n\nwe save the live subdomin at: $HOME/Desktop/${TARGET}/live.txt\033[0m"
 
     if [[ "$2" == "--live" ]]; then
-        # تشغيل الفحص بعد البحث عن النطاقات الحية
-        # يمكنك استبدال الكود التالي بكود الفحص الخاص بك
+
+
         
         echo "-----------------------------------------"
         echo -e "\033[0;32mYou can see the hiden pages by \033[0m"
