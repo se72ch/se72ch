@@ -55,7 +55,7 @@ INSTALLATION:
       └─$chmod +x se72ch.sh
        
       ┌──(ali㉿ali)-[~]
-      └─$./se72ch -h 
+      └─$./se72ch.sh -h 
 
 
 NOTES:
