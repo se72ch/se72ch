@@ -49,13 +49,13 @@ INSTALLATION:
       └─$ chmod +x requirements.sh
        
       ┌──(ali㉿ali)-[~]
-      └─$sudo ./requirements.sh
+      └─$ sudo ./requirements.sh
        
       ┌──(ali㉿ali)-[~]
-      └─$chmod +x se72ch.sh
+      └─$ chmod +x se72ch.sh
        
       ┌──(ali㉿ali)-[~]
-      └─$./se72ch.sh -h 
+      └─$ ./se72ch.sh -h 
 
 
 NOTES:
