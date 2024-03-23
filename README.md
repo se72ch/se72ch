@@ -63,6 +63,7 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 1. enjoy a cup of coffee until the tool finishes working, it will take a little time.
 2. your output  will save on the user's Desktop.
 3. The tool will work on Kali without problems. Wait for the new version to work on other operating systems.
+4. se72ch noob must not be run as *root*, Please change your user to anything else.
 
    
 **BUGS, COMMENTS, FEEDBACK**
