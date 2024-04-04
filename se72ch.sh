@@ -76,7 +76,7 @@ read -p "TARGET DOMAIN: " TARGET
 ####################################################################################################################################################################
 
 if [[ "$TARGET" == *"/"* ]]; then
-    echo -e "\e[31mPlease enter the domain name only, without pages or protocols\e[0m"
+    echo -e "\e[31m[+] Please enter the domain name only, without pages or protocols\e[0m"
     exit 1
 fi
 
