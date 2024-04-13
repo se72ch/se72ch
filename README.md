@@ -1,30 +1,8 @@
-![image](https://github.com/se72ch/se72ch/assets/134131449/57dcea80-1bd6-40e0-9387-fbedbb01f8b4)
-
 **INTRODUCTION:**
 
 se72ch noob is a tool for automating reconnaissance tasks. It gathers information about a target domain, including subdomains and URLs, using OSINT tools like theHarvester, dirsearch, and httprobe. It verifies URL status codes and performs fuzzing to uncover hidden pages, enhancing security assessments and penetration testing engagements.
-                        
-                        
-                        $$$$$$$$\  $$$$$$\            $$\                                                                                   
-                        \____$$  |$$  __$$\           $$ |                                                                                  
-     $$$$$$$\  $$$$$$\      $$  / \__/  $$ | $$$$$$$\ $$$$$$$\                                                                              
-    $$  _____|$$  __$$\    $$  /   $$$$$$  |$$  _____|$$  __$$\                                                                             
-    \$$$$$$\  $$$$$$$$ |  $$  /   $$  ____/ $$ /      $$ |  $$ |                                                                            
-     \____$$\ $$   ____| $$  /    $$ |      $$ |      $$ |  $$ |                                                                            
-    $$$$$$$  |\$$$$$$$\ $$  /     $$$$$$$$\ \$$$$$$$\ $$ |  $$ |                                                                            
-    \_______/  \_______|\__/      \________| \_______|\__|  \__|                                                                            
-    se72ch noob @@version 1.1                                                                                                               
-    Ali Drabkih ...                                                                                                                                                               
-                 ,,__                                                                                                                  
-        ..  ..   / o._)                   .---.                                                                                         
-       /--'/--\  \-'||        .----.    .'     '.                                                                                       
-      /        \_/ / |      .'      '..'         '-.                                                                                    
-    .'\  \__\  __.'.'     .'          ě-._                                                                                              
-      )\ |  )\ |      _.'                                                                                                               
-     // \\ // \\                                                                                                                        
-    ||_  \\|_  \\_ 
 
-
+![image](https://github.com/se72ch/se72ch/assets/134131449/5bdd246e-c90a-402b-82ec-ec4133283ca8)
 
                                                                                                                                                                               
 **SYNTAX:**
