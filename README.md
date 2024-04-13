@@ -21,7 +21,7 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 **INSTALLATION:**
 
       ┌──(ali㉿ali)-[~]
-      └─$  git clone https://github.com/Search829/se72ch.git
+      └─$  git clone https://github.com/se72ch/se72ch
        
       ┌──(ali㉿ali)-[~]
       └─$ cd se72ch 
