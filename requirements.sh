@@ -29,9 +29,10 @@ sudo apt install python3
 echo -e "\e[1;32mpython3 installed successfully.\e[0m"
 
 echo -e "\e[1;34mInstalling ParamSpider...\e[0m"
+cd /var/
 sudo git clone https://github.com/0xKayala/ParamSpider
-
-sudo pip3 install -r /var/requirements.txt 
+cd ParamSpider
+sudo pip3 install -r /var/ParamSpider/requirements.txt 
 echo -e "\e[1;32mParamSpider installed successfully.\e[0m"
 
 echo -e "\e[1;32mInstallation completed successfully.\e[0m"
