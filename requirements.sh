@@ -33,8 +33,6 @@ cd /var
 sudo git clone https://github.com/0xKayala/ParamSpider
 cd ParamSpider
 sudo pip3 install -r requirements.txt 
-cd ..
-sudo mv ParamSpider .ParamSpider
 echo -e "\e[1;32mParamSpider installed successfully.\e[0m"
 
 echo -e "\e[1;32mInstallation completed successfully.\e[0m"
