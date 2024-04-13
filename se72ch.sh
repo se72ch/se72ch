@@ -92,7 +92,7 @@ command_exists() {
 }
 
 if ! command_exists theHarvester; then
-    echo -e "\e[1;31m[x] Error: Please install requirements before running se72ch.\e[0m"
+    echo -e "\e[1;31m[x] Error theHarvester: Please install requirements before running se72ch.\e[0m"
     exit 1
 fi
 
@@ -103,16 +103,20 @@ if ! command_exists figlet; then
 fi
 
 if ! command_exists dirsearch; then
-    echo -e "\e[1;31m[x] Error: Please run requirements.sh before running se72ch.\e[0m"
+    echo -e "\e[1;31m[x] Error figlet: Please run requirements.sh before running se72ch.\e[0m"
     exit 1
 fi
 
 if ! command_exists curl; then
-    echo -e "\e[1;31m[x] Error: Please run requirements.sh before running se72ch.\e[0m"
+    echo -e "\e[1;31m[x] Error curl: Please run requirements.sh before running se72ch.\e[0m"
     exit 1
 fi
 if ! command_exists jq; then
-    echo -e "\e[1;31m[x] Error: Please run requirements.sh before running se72ch.\e[0m"
+    echo -e "\e[1;31m[x] Error jq: Please run requirements.sh before running se72ch.\e[0m"
+    exit 1
+fi
+if ! command_exists pyhton3; then
+    echo -e "\e[1;31m[x] Error pyhton3: Please run requirements.sh before running se72ch.\e[0m"
     exit 1
 fi
 ####################################################################################################################################################################
