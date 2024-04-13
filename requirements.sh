@@ -25,7 +25,7 @@ sudo apt install httprobe -y
 echo -e "\e[1;32mhttprobe installed successfully.\e[0m"
 
 echo -e "\e[1;34mInstalling python3...\e[0m"
-sudo apt install python3
+sudo apt install python3 -y
 echo -e "\e[1;32mpython3 installed successfully.\e[0m"
 
 echo -e "\e[1;34mInstalling ParamSpider...\e[0m"
