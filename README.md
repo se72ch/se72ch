@@ -58,4 +58,4 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 **BUGS, COMMENTS, FEEDBACK**
 
 1. Feel free to get in touch, at drabkahali7@gmail.com
-2. Shoot my [DM]([url](https://www.linkedin.com/in/alialdrabkih/)) with new ideas
+2. Shoot my [LINKEDIN](https://www.linkedin.com/in/alialdrabkih/) with new ideas
