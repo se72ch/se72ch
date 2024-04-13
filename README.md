@@ -7,12 +7,14 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
                                                                                                                                                                               
 **SYNTAX:**
 
+    [+] Usage: ./se72ch.sh [--live] [--fuzz] [-p/--parameters] 
 
-      Usage:./se72ch.sh [--live] [--fuzz]                                                                                                    
-                                                                                                                                        
-      --live: to check the status codes of discovered URLs.                                                                                   
-                                                                                                                                        
-      --fuzz: to perform fuzzing on discovered URLs.
+
+    --live            : to check the status codes of discovered URLs.
+
+    --fuzz            : to perform fuzzing on discovered URLs.
+
+    --parameters / -p : to discovered website parameters.
 
 
 
@@ -36,6 +38,12 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
       ┌──(ali㉿ali)-[~]
       └─$ ./se72ch.sh -h 
 
+      
+**EXSAMPLE**
+
+      ┌──(ali㉿ali)-[~]
+      └─$ ./se72ch.sh --live -fuzz -p  
+
 
 **NOTES:**
 
@@ -43,6 +51,8 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 2. your output  will save on the user's Desktop.
 3. The tool will work on Kali without problems. Wait for the new version to work on other operating systems.
 4. se72ch noob must not be run as *root*, Please change your user to anything else.
+5. Use python 3.7+
+
 
    
 **BUGS, COMMENTS, FEEDBACK**
