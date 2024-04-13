@@ -129,13 +129,13 @@ echo -e "\033[0;35mwe work at: $HOME/Desktop/${TARGET}/ \033[0m"
 if [[ "$@" =~ "--parameters" || "$@" =~ "-p" ]]; then
     
     if [[ "$@" =~ "--live" || "$@" =~ "--fuzz" ]]; then
-        python3 /var/.ParamSpider/paramspider.py --domain "${TARGET}" --output "$HOME/Desktop/${TARGET}/parameters.txt" | grep "${TARGET}"
+        python3 /var/ParamSpider/paramspider.py --domain "${TARGET}" --output "$HOME/Desktop/${TARGET}/parameters.txt" | grep "${TARGET}"
         echo -e "\e[1;31"
         figlet -f pagga.tlf "SUBDOMAINS?"
         echo -e "\e[0m"
     else
 
-        python3 /var/.ParamSpider/paramspider.py --domain "${TARGET}" --output "$HOME/Desktop/${TARGET}/parameters.txt" | grep "${TARGET}"
+        python3 /var/ParamSpider/paramspider.py --domain "${TARGET}" --output "$HOME/Desktop/${TARGET}/parameters.txt" | grep "${TARGET}"
         exit 1
     fi
 fi
