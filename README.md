@@ -43,6 +43,12 @@ se72ch noob is a tool for automating reconnaissance tasks. It gathers informatio
 
       ┌──(ali㉿ali)-[~]
       └─$ ./se72ch.sh --live -fuzz -p  
+![image](https://github.com/se72ch/se72ch/assets/134131449/7d9ad8f0-ccb6-444f-851e-75166b7e3a96)
+![image](https://github.com/se72ch/se72ch/assets/134131449/82cf12c7-5c52-432b-8480-e5f89355f602)
+![image](https://github.com/se72ch/se72ch/assets/134131449/0713102a-898b-4b27-b7f5-5e7be9636666)
+![image](https://github.com/se72ch/se72ch/assets/134131449/f20be609-5d19-4e12-a0c9-a66ffa09f501)
+
+
 
 
 **NOTES:**
